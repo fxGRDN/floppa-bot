@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from os import environ
 from flopperBot import Bocisko
 from commands.reply import hi, bingus, php
-from httpserver import run
+
 
 load_dotenv()
 DISCORD_TOKEN = environ.get('DISCORD_TOKEN')
