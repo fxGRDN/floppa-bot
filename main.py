@@ -2,7 +2,7 @@ import discord
 from dotenv import load_dotenv
 from os import environ
 from flopperBot import Bocisko
-from commands.reply import hi, bingus, php
+from commands.reply import hi, bingus, php, flop
 
 
 load_dotenv()
@@ -14,6 +14,7 @@ bot = Bocisko(command_prefix='^^', activity=act)
 bot.add_command(hi)
 bot.add_command(bingus)
 bot.add_command(php)
+bot.add_command(flop)
 bot.run(DISCORD_TOKEN)
 run()
 
