@@ -16,5 +16,5 @@ bot.add_command(bingus)
 bot.add_command(php)
 bot.add_command(flop)
 bot.run(DISCORD_TOKEN)
-run()
+
 
