@@ -4,11 +4,11 @@ from lib.randhi import randHi, randBingus
 
 @commands.command(brief="Przywitanie")
 async def hi(ctx):
-    await ctx.send(randHi())
+    await ctx.send(randHi("hi.txt")+','+str(ctx.author.mention))
 
 @commands.command(brief="Mój stosunek do bingus")
 async def bingus(ctx):
-    await ctx.send(randBingus())
+    await ctx.send(randBingus("bingus.txt"))
 
 @commands.command(brief="Najwyższa prawda")
 async  def php(ctx):
