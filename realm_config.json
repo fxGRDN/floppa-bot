@@ -1,7 +1,8 @@
 {
-    "app_id": "application-0-ocqvt",
+    "app_id": "floppabot-jyned",
     "config_version": 20210101,
-    "name": "Application-0",
+    "name": "FloppaBot",
     "location": "DE-FF",
-    "deployment_model": "LOCAL"
+    "deployment_model": "GLOBAL",
+    "environment": "production"
 }
