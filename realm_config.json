@@ -1,8 +1,0 @@
-{
-    "app_id": "floppabot-jyned",
-    "config_version": 20210101,
-    "name": "FloppaBot",
-    "location": "DE-FF",
-    "deployment_model": "GLOBAL",
-    "environment": "production"
-}
