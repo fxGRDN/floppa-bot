@@ -1,5 +1,7 @@
 __pycache__
 .idea
+.venv
 .env
 */__pycache__
 *.lock
+v1
