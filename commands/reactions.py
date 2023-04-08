@@ -57,7 +57,7 @@ async def reactions(ctx, how_long, *filter):
             reactions += f" {reaction.emoji}: {reaction.count}"
 
         embed.add_field(
-            name=f"{index}. {item[2]} | {item[3]}", 
-            value=f"{reactions}",
+            name=f"{index}. {item[2]}", 
+            value=f"[click]({item[3]}) | {reactions}",
             inline=False)
     await ctx.send(embed=embed) 
